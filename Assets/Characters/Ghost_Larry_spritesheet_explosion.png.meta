@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 716c36fde6d8cff46b474dfb86bb7df9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ghost_Larry_spritesheet_explosion_0
+    21300002: Ghost_Larry_spritesheet_explosion_1
+    21300004: Ghost_Larry_spritesheet_explosion_2
+    21300006: Ghost_Larry_spritesheet_explosion_3
+    21300008: Ghost_Larry_spritesheet_explosion_4
+    21300010: Ghost_Larry_spritesheet_explosion_5
+    21300012: Ghost_Larry_spritesheet_explosion_7
+    21300014: Ghost_Larry_spritesheet_explosion_19
+    21300016: Ghost_Larry_spritesheet_explosion_43
+    21300018: Ghost_Larry_spritesheet_explosion_37
+    21300020: Ghost_Larry_spritesheet_explosion_26
+    21300022: Ghost_Larry_spritesheet_explosion_21
+    21300024: Ghost_Larry_spritesheet_explosion_17
+    21300026: Ghost_Larry_spritesheet_explosion_13
+    21300028: Ghost_Larry_spritesheet_explosion_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Ghost_Larry_spritesheet_explosion_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1263
+        width: 265
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1265
+        width: 262
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_2
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1270
+        width: 265
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_3
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1270
+        width: 262
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_4
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1273
+        width: 265
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 879
+        width: 274
+        height: 350
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_7
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 878
+        width: 328
+        height: 356
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 429
+        width: 474
+        height: 393
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_43
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 874
+        width: 375
+        height: 360
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_37
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 866
+        width: 416
+        height: 376
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_26
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 446
+        width: 460
+        height: 364
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_21
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 459
+        width: 412
+        height: 326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 52
+        width: 366
+        height: 302
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_13
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 298
+        width: 182
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ghost_Larry_spritesheet_explosion_14
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 212
+        width: 192
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
