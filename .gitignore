@@ -41,6 +41,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-Library/metadata/87/87f87d9a2b98e4344bc518309bf9c39d
-Library/AnnotationManager
-Library/assetDatabase3
+
+Library/*
+RAW/*
+Temp/*
