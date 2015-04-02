@@ -92,13 +92,13 @@ public class ScoreManager : MonoBehaviour
 
 		void SetStars ()// calculo da quantidade de estrelas
 		{
-				if (score > OneStarScore) {
+				if (score >= OneStarScore) {
 						OneStar.renderer.material.color = new Color (1, 1, 1, 1);
 				}
-				if (score > TwoStarScore) {
+				if (score >= TwoStarScore) {
 						TwoStar.renderer.material.color = new Color (1, 1, 1, 1);
 				}
-				if (score > TreeStarScore) {
+				if (score >= TreeStarScore) {
 						TreeStar.renderer.material.color = new Color (1, 1, 1, 1);
 				}
 		}

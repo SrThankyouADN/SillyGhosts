@@ -38,7 +38,6 @@ public class Enemy_Controller : MonoBehaviour
 		void FixedUpdate ()
 		{
 
-
 				float speed = Vector3.Magnitude (rigidbody2D.velocity);  // test current object speed
 		
 				if (speed > maximumSpeed) {

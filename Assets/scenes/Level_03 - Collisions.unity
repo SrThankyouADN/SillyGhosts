@@ -14281,6 +14281,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 75f330a2c5d22a44783869d4fbf93518, type: 2}
+      propertyPath: EnemyNum
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75f330a2c5d22a44783869d4fbf93518, type: 2}
   m_RootGameObject: {fileID: 2125150905}
@@ -14420,6 +14424,10 @@ Prefab:
     - target: {fileID: 21200002, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400030, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
+      propertyPath: ComboTimer
+      value: .5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
@@ -23865,7 +23873,7 @@ MonoBehaviour:
   TreeStarScore: 190
   TreeStar: {fileID: 675258952}
   sliderMulti: {fileID: 1316018054}
-  ComboTimer: 2
+  ComboTimer: .5
 --- !u!1001 &1640953124
 Prefab:
   m_ObjectHideFlags: 0
@@ -28811,6 +28819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy:
   - {fileID: 100000, guid: e17bac35777921f4cab7ecf941b0521b, type: 2}
+  EnemeySpeed: .300000012
   EnemyNum: 0
   EnemyCurrNum: 0
   spawnTime: 2

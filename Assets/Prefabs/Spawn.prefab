@@ -42,7 +42,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy:
   - {fileID: 100000, guid: e17bac35777921f4cab7ecf941b0521b, type: 2}
-  EnemyNum: 0
+  EnemeySpeed: .300000012
+  EnemyNum: 10
   EnemyCurrNum: 0
   spawnTime: 2
 --- !u!212 &21200000
