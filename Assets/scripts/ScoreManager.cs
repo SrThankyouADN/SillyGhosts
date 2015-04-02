@@ -60,7 +60,11 @@ public class ScoreManager : MonoBehaviour
 		}
 		public void AddScore (int toAdd, int Mtxt)
 		{
-				newScoreValue = toAdd + (toAdd * ((Mtxt + 1) / 5));
+
+				// toAdd = score do inimigo ex. 10;
+				// Mtxt = numero do combo atual ex. 2, 5 ou 10;
+
+				newScoreValue = toAdd + 1 + (toAdd * ((Mtxt + 1) / 5));
 
 				score += newScoreValue;
 				UpdateScore ();
