@@ -24,6 +24,7 @@ public class ScoreManager : MonoBehaviour
 		public float ComboTimer; // tempo de combo
 		private int newScoreValue;
 
+
 		private Text text;
 
 		static float EnemyNumber;
@@ -80,8 +81,11 @@ public class ScoreManager : MonoBehaviour
 				EnemyRestantes = EnemyTotal - EnemyNumber;
 				Gnum.text = "x" + EnemyRestantes;
 				sliderMulti.value = ComboTimerP;
-				sliderScore.value = score;
+				//sliderScore.value = score;
+				
+				sliderScore.value = Mathf.Lerp (sliderScore.value, score, (Time.fixedDeltaTime * 0.5f));
 				SetStars ();
+
 
 		}
 		void FixedUpdate ()
