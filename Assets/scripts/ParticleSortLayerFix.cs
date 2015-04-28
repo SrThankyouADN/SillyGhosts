@@ -4,17 +4,18 @@ using System.Collections;
 public class ParticleSortLayerFix : MonoBehaviour
 {
 
-		public string LayerName = "Player";
-		
+	public string SortingLayerName = "Player";
+	public int OrderInLayer = 0;
 
 
-		// Use this for initialization
-		void Start ()
-		{
-				particleSystem.renderer.sortingLayerName = LayerName;
-				particleSystem.renderer.sortingOrder = -1;
-		}
+
+	// Use this for initialization
+	void Start ()
+	{
+		particleSystem.renderer.sortingLayerName = SortingLayerName;
+		particleSystem.renderer.sortingOrder = OrderInLayer;
+	}
 	
-		// Update is called once per frame
+	// Update is called once per frame
 		
 }

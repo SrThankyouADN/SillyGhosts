@@ -80,6 +80,7 @@ GameObject:
   - 4: {fileID: 400006}
   - 198: {fileID: 19800002}
   - 199: {fileID: 19900002}
+  - 114: {fileID: 11400002}
   m_Layer: 9
   m_Name: "fuma\xE7a"
   m_TagString: Untagged
@@ -194,6 +195,19 @@ MonoBehaviour:
   Raio: {fileID: 100002}
   HitScore_Prefab: {fileID: 100000, guid: 44f13fa128a3f314884b86121d27b4ef, type: 2}
   CanExplode: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e180c8bfe641244acf74d4f498a562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortingLayerName: Player
+  OrderInLayer: 0
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -2380,8 +2394,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1221802411
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 716c36fde6d8cff46b474dfb86bb7df9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200002
@@ -2402,7 +2416,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1221802411
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bf80aa86bbbfb6f47b8c309c345e7bef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .403921574}
@@ -2425,7 +2439,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 1221802411
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300026, guid: 716c36fde6d8cff46b474dfb86bb7df9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!224 &22400000
@@ -2446,7 +2460,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.23000002, y: -0}
   m_SizeDelta: {x: 2.6400001, y: 3.5}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22400002

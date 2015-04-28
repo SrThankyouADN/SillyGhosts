@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ParticleControl : MonoBehaviour
+public class PlayAnimationsGeral : MonoBehaviour
 {
 		public GameObject particles;
 		// Use this for initialization
@@ -9,11 +9,12 @@ public class ParticleControl : MonoBehaviour
 		{
 	
 		}
-	
-		// Update is called once per frame
 		public void PlayParticle ()
 		{
 				particles.particleSystem.Play ();
 		}
+		public void PlayStars ()
+		{
 
+		}
 }

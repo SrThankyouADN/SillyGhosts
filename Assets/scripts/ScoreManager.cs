@@ -35,6 +35,13 @@ public class ScoreManager : MonoBehaviour
 		//public GameObject MiddlePostionGO;
 		public static float ComboTimerP; //valor interno do tempo de combo
 		public static float SetComboTimer; // parametro para ser acessado por outro script
+		//endLevelPopPup
+
+		public GameObject EndLevelPopup;
+		public GameObject EndLevel1Star;
+		public GameObject EndLevel2Star;
+		public GameObject EndLevel3Star;
+
 
 		void Start ()
 		{
@@ -110,4 +117,6 @@ public class ScoreManager : MonoBehaviour
 						TreeStar.renderer.material.color = new Color (1, 1, 1, 1);
 				}
 		}
+
+
 }
