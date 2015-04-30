@@ -23,6 +23,7 @@ public class ScoreManager : MonoBehaviour
 		public Slider sliderMulti; // Slider do tempo de combo
 		public float ComboTimer; // tempo de combo
 		private int newScoreValue;
+		public static int StarsNumber = 0;
 
 
 		private Text text;
@@ -31,17 +32,15 @@ public class ScoreManager : MonoBehaviour
 		private Text Gdeath;
 		static float EnemyTotal;
 		static float EnemyRestantes;
+		public static float EnemyCountDead = 0;
 		public static Vector3 MiddlePosition;
 		//public GameObject MiddlePostionGO;
 		public static float ComboTimerP; //valor interno do tempo de combo
 		public static float SetComboTimer; // parametro para ser acessado por outro script
+
 		//endLevelPopPup
-
+	
 		public GameObject EndLevelPopup;
-		public GameObject EndLevel1Star;
-		public GameObject EndLevel2Star;
-		public GameObject EndLevel3Star;
-
 
 		void Start ()
 		{
@@ -63,7 +62,7 @@ public class ScoreManager : MonoBehaviour
 				TwoStar.renderer.material.color = new Color (0, 0, 0, .10f);
 				TreeStar.renderer.material.color = new Color (0, 0, 0, .10f);
 
-
+				EndLevelPopup.SetActive (false);
 		
 		}
 		public void AddScore (int toAdd, int Mtxt)
@@ -92,7 +91,10 @@ public class ScoreManager : MonoBehaviour
 				
 				sliderScore.value = Mathf.Lerp (sliderScore.value, score, (Time.fixedDeltaTime * 0.5f));
 				SetStars ();
-
+				//print (EnemyCountDead);
+				if (EnemyCountDead == EnemyTotal) {
+						LevelFinished ();
+				}
 
 		}
 		void FixedUpdate ()
@@ -108,15 +110,30 @@ public class ScoreManager : MonoBehaviour
 		void SetStars ()// calculo da quantidade de estrelas
 		{
 				if (score >= OneStarScore) {
+						StarsNumber = 1;
 						OneStar.renderer.material.color = new Color (1, 1, 1, 1);
 				}
 				if (score >= TwoStarScore) {
 						TwoStar.renderer.material.color = new Color (1, 1, 1, 1);
+						StarsNumber = 2;
+		
 				}
 				if (score >= TreeStarScore) {
+						StarsNumber = 3;
 						TreeStar.renderer.material.color = new Color (1, 1, 1, 1);
 				}
 		}
-
+		public void LevelFinished ()
+		{
+				StartCoroutine (coShowStar ());
+		}
+	
+		IEnumerator coShowStar ()
+		{
+				yield return new WaitForSeconds (1f);		
+				//Debug.Log ("FINISHED!!");
+				EndLevelPopup.SetActive (true);
+				
+		}		
 
 }

@@ -124,6 +124,8 @@ public class Enemy_Controller : MonoBehaviour
 				UiReceiver.GetComponent<ScoreManager> ().AddScore (ScoreToAdd, SetMultiText.MultiTxt);
 				//destroi todos os GO dentro do raio
 				Destroy (this.gameObject);
+				//aumenta a contagem de inimigos mortos
+				ScoreManager.EnemyCountDead++;
 
 		}
 

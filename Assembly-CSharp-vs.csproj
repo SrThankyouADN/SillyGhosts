@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EndLevelControl.cs" />
      <Compile Include="Assets\FXAA\Scripts\FXAA.cs" />
      <Compile Include="Assets\FXAA\Scripts\FXAAPostEffectsBase.cs" />
      <Compile Include="Assets\scripts\ChainExplosions.cs" />

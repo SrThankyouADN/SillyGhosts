@@ -10,7 +10,6 @@ public class SpawnScript : MonoBehaviour
 		public float EnemyNum;//Numero de inimigos a serem lançados
 		public float EnemyCurrNum = 0; //numero atual de inimigos lançados
 		//public float EnemyCount;
-		//public float EnemyCountDead = 0;
 // Velocidade de Spawn
 		public float spawnTime = 2;
 		Vector2 spawnPoint;

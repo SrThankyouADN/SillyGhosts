@@ -10540,7 +10540,7 @@ GameObject:
   - 95: {fileID: 527121250}
   - 114: {fileID: 527121249}
   m_Layer: 0
-  m_Name: Star
+  m_Name: Star3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11012,7 +11012,31 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400040, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.63544095
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400040, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.63544047
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400040, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 42.3870239
+      objectReference: {fileID: 0}
+    - target: {fileID: 100066, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
+      propertyPath: m_Name
+      value: Star1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
+      propertyPath: m_Name
+      value: Star2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
+      propertyPath: m_Name
+      value: Star3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c2182286c7bbdd7458cdec81ae540c30, type: 2}
@@ -11500,7 +11524,7 @@ GameObject:
   - 95: {fileID: 675258956}
   - 114: {fileID: 675258955}
   m_Layer: 0
-  m_Name: Star
+  m_Name: Star2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17488,13 +17512,14 @@ GameObject:
   - 222: {fileID: 1171329631}
   - 114: {fileID: 1171329630}
   - 95: {fileID: 1171329629}
+  - 114: {fileID: 1171329632}
   m_Layer: 5
   m_Name: EndLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1171329628
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17504,7 +17529,7 @@ RectTransform:
   m_GameObject: {fileID: 1171329627}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 146}
-  m_LocalScale: {x: .748520195, y: .748520255, z: 19.3999996}
+  m_LocalScale: {x: 1.63544095, y: 1.63544047, z: 42.3870239}
   m_Children:
   - {fileID: 1169038202}
   - {fileID: 97126586}
@@ -17562,6 +17587,20 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 634352560}
   m_GameObject: {fileID: 1171329627}
+--- !u!114 &1171329632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1171329627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a88bc26c3059a4d9036f4f83dfa99d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EndLevel1Star: {fileID: 1456428294}
+  EndLevel2Star: {fileID: 675258956}
+  EndLevel3Star: {fileID: 527121250}
 --- !u!1 &1254619385
 GameObject:
   m_ObjectHideFlags: 0
@@ -19800,7 +19839,7 @@ GameObject:
   - 95: {fileID: 1456428294}
   - 114: {fileID: 1456428293}
   m_Layer: 0
-  m_Name: Star
+  m_Name: Star1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25955,9 +25994,6 @@ MonoBehaviour:
   sliderMulti: {fileID: 1316018054}
   ComboTimer: 2
   EndLevelPopup: {fileID: 1171329627}
-  EndLevel1Star: {fileID: 1169038201}
-  EndLevel2Star: {fileID: 97126585}
-  EndLevel3Star: {fileID: 2060179933}
 --- !u!1001 &1640953124
 Prefab:
   m_ObjectHideFlags: 0
