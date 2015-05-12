@@ -41,6 +41,7 @@ public class ScoreManager : MonoBehaviour
 		//endLevelPopPup
 	
 		public GameObject EndLevelPopup;
+		
 
 		void Start ()
 		{
@@ -61,8 +62,10 @@ public class ScoreManager : MonoBehaviour
 				OneStar.renderer.material.color = new Color (0, 0, 0, .10f);
 				TwoStar.renderer.material.color = new Color (0, 0, 0, .10f);
 				TreeStar.renderer.material.color = new Color (0, 0, 0, .10f);
-
+				EnemyCountDead = 0;
+				StarsNumber = 0;
 				EndLevelPopup.SetActive (false);
+				
 		
 		}
 		public void AddScore (int toAdd, int Mtxt)

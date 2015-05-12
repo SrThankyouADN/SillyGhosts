@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: EndLevel
+  m_Name: Score
   serializedVersion: 2
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -25,11 +25,11 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: EndLevelPopup
+  m_Name: EndLevelPopup_Score
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 23ffcdaa70d193744b1a5341a723b16a, type: 2}
+  - {fileID: 7400000, guid: 544cd8aa07886a74090d5343662ddc79, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 48, y: 60, z: 0}
   m_IKOnFeet: 0
@@ -49,5 +49,5 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions: {}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 48, y: 12, z: 0}
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
