@@ -60,7 +60,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400006}
   m_Layer: 5
-  m_Name: Stars
+  m_Name: StarsGain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e180c8bfe641244acf74d4f498a562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LayerName: Particles
+  SortingLayerName: Player
+  OrderInLayer: 0
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1
