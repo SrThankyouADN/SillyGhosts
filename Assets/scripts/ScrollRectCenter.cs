@@ -22,11 +22,18 @@ public class ScrollRectCenter : MonoBehaviour
 		float positionX;
 		Vector2 lugar;
 		float TelaAtual = 0;
+
+		public RectTransform wordsTarget;
+		public Vector2 world01pos;
+		public Vector2 world02pos;
+		float worldPosionX;
+		Vector2 worldLugar;
+		float worldAtual = 1;
 	
 		void Awake ()
 		{
 
-		//ScrollRect scroller = gameObject.GetComponent<ScrollRect> ();
+				//ScrollRect scroller = gameObject.GetComponent<ScrollRect> ();
 
 		}
 
